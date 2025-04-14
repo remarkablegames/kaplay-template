@@ -16,7 +16,7 @@
   },
   "homepage": "https://remarkablegames.org/kaplay-template/",
   "dependencies": {
-    "kaplay": "3001.0.10"
+    "kaplay": "3001.0.12"
   },
   "devDependencies": {
     "@commitlint/cli": "19.8.0",
