@@ -4,19 +4,27 @@ import type { Player } from '../types'
 const SPEED = 320
 
 export function addCursorKeys(player: Player) {
-  onKeyDown('left', () => {
-    player.move(-SPEED, 0)
-  })
+  onKeyDown((key) => {
+    switch (key) {
+      case 'left':
+      case 'a':
+        player.move(-SPEED, 0)
+        break
 
-  onKeyDown('right', () => {
-    player.move(SPEED, 0)
-  })
+      case 'right':
+      case 'd':
+        player.move(SPEED, 0)
+        break
 
-  onKeyDown('up', () => {
-    player.move(0, -SPEED)
-  })
+      case 'up':
+      case 'w':
+        player.move(0, -SPEED)
+        break
 
-  onKeyDown('down', () => {
-    player.move(0, SPEED)
+      case 'down':
+      case 's':
+        player.move(0, SPEED)
+        break
+    }
   })
 }
