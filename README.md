@@ -4,7 +4,7 @@
 
 # Kaplay Template
 
-![release](https://img.shields.io/github/v/release/remarkablegames/kaplay-template)
+[![release](https://img.shields.io/github/v/release/remarkablegames/kaplay-template)](https://github.com/remarkablegames/kaplay-template/releases)
 [![build](https://github.com/remarkablegames/kaplay-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/kaplay-template/actions/workflows/build.yml)
 
 <kbd>kaplay-template</kbd> is a template for making [KAPLAY](https://kaplayjs.com/) games.
