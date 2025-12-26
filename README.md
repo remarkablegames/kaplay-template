@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/remarkablegames/kaplay-template/blob/master/public/logo.png" alt="Kaplay Template">
+  <img src="public/logo.png" alt="Kaplay Template">
 </p>
 
 # Kaplay Template
