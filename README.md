@@ -32,11 +32,33 @@ Install the dependencies:
 npm install
 ```
 
+Rename the project:
+
+```sh
+git grep -l kaplay-template | xargs sed -i '' -e 's/kaplay-template/my-game/g'
+```
+
+```sh
+git grep -l 'Kaplay Template' | xargs sed -i '' -e 's/Kaplay Template/My Game/g'
+```
+
+Update the files:
+
+- [ ] `README.md`
+- [ ] `index.html`
+- [ ] `package.json`
+- [ ] `public/favicon.png`
+- [ ] `public/manifest.json`
+
+## Environment Variables
+
 Update the environment variables:
 
 ```sh
 cp .env .env.local
 ```
+
+Update the **Secrets** in the repository **Settings**.
 
 ## Available Scripts
 
