@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/logo.png" alt="Kaplay Template">
+  <img src="public/favicon.png" alt="Kaplay Template">
 </p>
 
 # Kaplay Template
