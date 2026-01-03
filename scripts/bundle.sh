@@ -5,7 +5,9 @@ BUNDLE=true npm run build -- --base=./
 
 # compress directory into single archive
 if [[ $CI != 'true' ]]; then
-  zip -r "dist/$(npm pkg get name | tr -d \")-$(npm pkg get version | tr -d \").zip" dist
+  NAME=$(npm pkg get name | tr -d \")
+  VERSION=$(npm pkg get version | tr -d \")
+  zip -r "dist/$NAME-$VERSION.zip" dist
   echo
   find dist -type f -name '*.zip'
   open dist
