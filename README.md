@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/favicon.png" alt="Kaplay Template">
+  <img src="public/favicon.png" width="200" alt="Kaplay Template">
 </p>
 
 # Kaplay Template
@@ -64,7 +64,7 @@ Your game is ready to be deployed!
 
 ### `npm run bundle`
 
-Builds the game and compresses the contents into a Zip archive in the `dist` folder.
+Builds the game and compresses the contents into a ZIP archive in the `dist` folder.
 
 Your game can be uploaded to your server, [itch.io](https://itch.io/), [newgrounds](https://www.newgrounds.com/), etc.
 
