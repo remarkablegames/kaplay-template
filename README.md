@@ -11,7 +11,7 @@
 
 Play the game on:
 
-- [remarkablegames](https://remarkablegames.org/kaplay-template)
+- [remarkablegames](https://remarkablegames.org/kaplay-template/)
 
 ## Prerequisites
 
