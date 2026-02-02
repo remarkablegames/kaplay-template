@@ -43,12 +43,12 @@ Follow these rules for all code you write:
 **Code style example:**
 
 ```typescript
-// ✅ Good - descriptive names, use of global kaplay functions
+// ✅ Good - descriptive names, uses kaplay global functions
 function addOverlay() {
   return add([rect(width(), height()), color(0, 0, 0), opacity(0.8)])
 }
 
-// ❌ Bad - vague names, use of `any` type
+// ❌ Bad - vague names, uses `any` type
 let gameObj: any
 gameObj = add([text('Game Over'), pos(100, 100), color(0, 0, 0)])
 
