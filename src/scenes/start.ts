@@ -1,8 +1,8 @@
 import './game'
 import './preload'
 
-import { Scene } from '../constants'
+import { SCENE } from '../constants'
 
 export function start() {
-  go(Scene.Preload)
+  go(SCENE.PRELOAD)
 }

@@ -1,4 +1,4 @@
-export enum Sprite {
-  Bean = 'Bean',
-  Ghosty = 'Ghosty',
-}
+export const SPRITE = {
+  BEAN: 'Bean',
+  GHOSTY: 'Ghosty',
+} as const

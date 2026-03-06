@@ -1,4 +1,4 @@
-export enum Scene {
-  Game = 'Game',
-  Preload = 'Preload',
-}
+export const SCENE = {
+  GAME: 'Game',
+  PRELOAD: 'Preload',
+} as const

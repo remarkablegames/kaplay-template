@@ -1,7 +1,7 @@
-import { Scene } from '../constants'
+import { SCENE } from '../constants'
 import { addEnemy, addPlayer } from '../gameobjects'
 
-scene(Scene.Game, () => {
+scene(SCENE.GAME, () => {
   addPlayer()
 
   onClick(() => addKaboom(mousePos()))

@@ -1,4 +1,4 @@
-export enum Tag {
-  Enemy = 'Enemy',
-  Player = 'Player',
-}
+export const TAG = {
+  ENEMY: 'Enemy',
+  PLAYER: 'Player',
+} as const

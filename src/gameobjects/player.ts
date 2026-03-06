@@ -1,13 +1,13 @@
-import { Sprite, Tag } from '../constants'
+import { SPRITE, TAG } from '../constants'
 import { addCursorKeys } from '../events'
 
 export function addPlayer(x = center().x, y = center().y) {
   const player = add([
-    sprite(Sprite.Bean),
+    sprite(SPRITE.BEAN),
     pos(x, y),
     rotate(0),
     anchor('center'),
-    Tag.Player,
+    TAG.PLAYER,
   ])
 
   addCursorKeys(player)
