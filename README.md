@@ -53,7 +53,7 @@ Update the files:
 - [ ] `package.json`
 - [ ] `public/app-icon.png`
 - [ ] `public/favicon.png`
-- [ ] `public/manifest.json`
+- [ ] `public/manifest.webmanifest`
 
 ## Environment Variables
 
