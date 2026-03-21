@@ -14,7 +14,7 @@ description: Expert technical engineer for this Kaplay.js game
 - **Tech Stack:**
   - Kaplay.js 3001 (game engine)
   - TypeScript 5 (strict mode)
-  - Vite 7 (build tool)
+  - Vite 8 (build tool)
   - Node.js 24
   - localStorage using Kaplay functions `getData` and `setData`
 - **File Structure:**
@@ -26,7 +26,7 @@ description: Expert technical engineer for this Kaplay.js game
 - **Build:** `npm run build` (builds web game with Vite, outputs to dist/)
 - **Lint:** `npm run lint:fix` (auto-fixes ESLint errors)
 - **Type check:** `npm run lint:tsc` (check TypeScript for errors)
-- **Start:** `npm start` (starts the development web server at http://localhost:5173)
+- **Start:** `npm start` (starts and opens the development web server at http://localhost:5173)
 
 ## Standards
 
@@ -38,15 +38,20 @@ Follow these rules for all code you write:
 - Classes: PascalCase (`GameStateManager`, `Character`)
 - Constants: UPPER_SNAKE_CASE (`GAME_CONFIG`, `MAX_LEVEL`)
 
-**Code style example:**
+**Code style:**
+
+- [Prettier](./.prettierrc.json) for formatting
+- [ESLint](./eslint.config.mts) for lint constraints (import sorting)
+
+**Examples:**
 
 ```ts
-// ✅ Good - descriptive names, use of global kaplay functions
+// ✅ Good - descriptive names, use of global kaplay functions, no semicolons
 function addOverlay() {
   return add([rect(width(), height()), color(0, 0, 0), opacity(0.8)])
 }
 
-// ❌ Bad - vague names, use of `any` type
+// ❌ Bad - vague names, use of `any` type, semicolons
 let gameObj: any
 gameObj = add([text('Game Over'), pos(100, 100), color(0, 0, 0)])
 
