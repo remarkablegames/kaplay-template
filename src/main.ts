@@ -1,4 +1,8 @@
-import { start } from './scenes'
+import kaplay from 'kaplay'
+
+kaplay()
+
+const { start } = await import('./scenes')
 
 start()
 
