@@ -1,4 +1,4 @@
 export const SPRITE = {
-  BEAN: 'Bean',
-  GHOSTY: 'Ghosty',
+  BEAN: 'bean',
+  GHOSTY: 'ghosty',
 } as const

@@ -1,4 +1,4 @@
 export const SCENE = {
-  GAME: 'Game',
-  PRELOAD: 'Preload',
+  GAME: 'game',
+  PRELOAD: 'preload',
 } as const

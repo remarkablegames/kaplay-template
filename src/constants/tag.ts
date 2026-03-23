@@ -1,4 +1,4 @@
 export const TAG = {
-  ENEMY: 'Enemy',
-  PLAYER: 'Player',
+  ENEMY: 'enemy',
+  PLAYER: 'player',
 } as const
