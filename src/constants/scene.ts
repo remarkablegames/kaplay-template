@@ -1,4 +1,2 @@
-export const SCENE = {
-  GAME: 'game',
-  PRELOAD: 'preload',
-} as const
+export const GAME = 'game'
+export const PRELOAD = 'preload'
