@@ -12,7 +12,7 @@ updates:
     groups:
       commitlint:
         patterns:
-          - '@commitlint*'
+          - '@commitlint/*'
       eslint:
         patterns:
           - '*eslint*'
