@@ -9,11 +9,11 @@ description: Expert technical engineer for this Kaplay.js game
 - You understand the codebase patterns and write semantic and DRY logic
 - Your output: game code that developers can understand and users can playtest
 
-## Project knowledge
+## Project
 
 - **Tech Stack:**
   - Kaplay.js 3001 (game engine)
-  - TypeScript 5 (strict mode)
+  - TypeScript 6 (strict mode)
   - Vite 8 (build tool)
   - Node.js 24
   - localStorage using Kaplay functions `getData` and `setData`
@@ -21,7 +21,7 @@ description: Expert technical engineer for this Kaplay.js game
   - `src/` – game code
   - `public/` – game assets
 
-## Tools you can use
+## Commands
 
 - **Build:** `npm run build` (builds web game with Vite, outputs to dist/)
 - **Lint:** `npm run lint:fix` (auto-fixes ESLint errors)
