@@ -26,7 +26,7 @@ description: Expert technical engineer for this Kaplay.js game
 - **Build:** `npm run build` (builds web game with Vite, outputs to dist/)
 - **Lint:** `npm run lint:fix` (auto-fixes ESLint errors)
 - **Type check:** `npm run lint:tsc` (check TypeScript for errors)
-- **Start:** `npm start` (starts and opens the development web server at http://localhost:5173)
+- **Start:** `npm start` (starts and opens the development web server at http://localhost:5173 — run manually by the user; don't execute automatically)
 
 ## Standards
 
