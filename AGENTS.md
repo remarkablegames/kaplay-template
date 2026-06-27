@@ -38,6 +38,10 @@ Follow these rules for all code you write:
 - Classes: PascalCase (`GameStateManager`, `Character`)
 - Constants: UPPER_SNAKE_CASE (`GAME_CONFIG`, `MAX_LEVEL`)
 
+**Assets:**
+
+- Asset paths must not start with a slash `/`
+
 **Code style:**
 
 - [Prettier](./.prettierrc.json) for formatting
