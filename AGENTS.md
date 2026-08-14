@@ -46,20 +46,26 @@ Follow these rules for all code you write:
 
 - [Prettier](./.prettierrc.json) for formatting
 - [ESLint](./eslint.config.mts) for lint constraints (import sorting)
+- Avoid unnecessary type casting, only annotate or assert types when inference is genuinely impossible
 
 **Examples:**
 
 ```ts
-// ✅ Good - descriptive names, use of global kaplay functions, no semicolons
-function addOverlay() {
-  return add([rect(width(), height()), color(0, 0, 0), opacity(0.8)])
-}
+// ✅ Good - let add() infer the full GameObj type
+const overlay = add([rect(width(), height()), color(0, 0, 0), opacity(0.8)])
 
-// ❌ Bad - vague names, use of `any` type, semicolons
+// ❌ Bad - using `any` instead of proper types
 let gameObj: any
 gameObj = add([text('Game Over'), pos(100, 100), color(0, 0, 0)])
 
-// ✅ Good - proper typing if type cannot be inferred
+// ❌ Bad - unnecessary type assertion on an already-inferred add() result
+const tile = add([rect(64, 64), color(255, 0, 0)]) as GameObj<
+  RectComp & ColorComp
+>
+
+// ✅ Good - annotate only when inference is genuinely impossible
 import type { GameObj, OpacityComp, PosComp, TextComp } from 'kaplay'
-let gameOverText: GameObj<TextComp, PosComp, OpacityComp>
+function showGameOver(gameOverText: GameObj<TextComp & PosComp & OpacityComp>) {
+  gameOverText.text = 'Game Over'
+}
 ```
