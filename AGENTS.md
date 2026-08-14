@@ -68,4 +68,12 @@ import type { GameObj, OpacityComp, PosComp, TextComp } from 'kaplay'
 function showGameOver(gameOverText: GameObj<TextComp & PosComp & OpacityComp>) {
   gameOverText.text = 'Game Over'
 }
+
+// ✅ Good - use ReturnType to name the type of an add()-based factory function,
+// only when that type needs to be used elsewhere (e.g., in another file or interface)
+import type { ColorComp, GameObj, RectComp } from 'kaplay'
+function addTile() {
+  return add([rect(64, 64), color(255, 0, 0)])
+}
+export type Tile = ReturnType<typeof addTile>
 ```
