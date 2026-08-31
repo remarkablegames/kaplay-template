@@ -9,7 +9,7 @@
 
 <kbd>kaplay-template</kbd> is a template for making [KAPLAY](https://kaplayjs.com/) games.
 
-Play in the browser:
+Play in your browser:
 
 - [remarkablegames](https://remarkablegames.org/kaplay-template/)
 
