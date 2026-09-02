@@ -76,4 +76,19 @@ function addTile() {
   return add([rect(64, 64), color(255, 0, 0)])
 }
 export type Tile = ReturnType<typeof addTile>
+
+
+// ❌ Bad - annotating a factory's return type with a loose GameObj
+// discards the precise component types inferred by add()
+function createOverlay(): GameObj {
+  return add([pos(), fixed(), z(100)])
+}
+let overlay: GameObj | null = null
+
+// ✅ Good - let the factory infer, name the type with ReturnType at usage sites
+// (works even when the function is declared later — function declarations are hoisted)
+function createOverlay() {
+  return add([pos(), fixed(), z(100)])
+}
+let overlay: ReturnType<typeof createOverlay> | null = null
 ```
