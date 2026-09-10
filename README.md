@@ -21,6 +21,10 @@ Play in your browser:
 brew install nvm
 ```
 
+## Credits
+
+- [KAPLAY Crew](https://kaplayjs.com/crew/)
+
 ## Install
 
 Clone the repository:
