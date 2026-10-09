@@ -1,7 +1,6 @@
 {
   "name": "kaplay-template",
   "version": "1.0.0-alpha",
-  "description": "Kaplay Template",
   "author": "Mark <mark@remarkablemark.org>",
   "scripts": {
     "build": "npm run clean && vite build",
@@ -14,7 +13,6 @@
     "preview": "vite preview",
     "start": "vite --open"
   },
-  "homepage": "https://remarkablegames.org/kaplay-template/",
   "dependencies": {
     "kaplay": "3001.0.19"
   },
