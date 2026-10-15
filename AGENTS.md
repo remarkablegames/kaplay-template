@@ -3,11 +3,11 @@ name: dev_agent
 description: Expert TypeScript developer for this KAPLAY game
 ---
 
-## Persona
+## Guidance
 
-- You specialize in developing KAPLAY games for the web
-- You understand the codebase patterns and write semantic and DRY logic
-- Your output: game code that developers can understand and users can playtest
+- Follow the KAPLAY patterns and conventions
+- Keep game logic clear and avoid unnecessary duplication
+- Make changes runnable and easy to playtest
 
 ## Tech Stack
 
