@@ -41,8 +41,12 @@ jobs:
 
       - name: Build for GitHub Pages
         run: npm run build -- --base /${{ github.event.repository.name }}/
-        env:
-          VITE_GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
+
+      - name: Inject Google Analytics
+        uses: remarkablemark/google-analytics-action@v1
+        with:
+          html-path: dist/index.html
+          measurement-id: ${{ secrets.GOOGLE_ANALYTICS_ID }}
 
       - name: Deploy to GitHub Pages
         if: github.ref_name == 'master'

@@ -65,16 +65,6 @@ Update the files:
 - [ ] `public/favicon.png`
 - [ ] `public/manifest.webmanifest`
 
-## Environment Variables
-
-Update the environment variables:
-
-```sh
-cp .env .env.local
-```
-
-Update the **Secrets** in the repository **Settings**.
-
 ## Available Scripts
 
 In the project directory, you can run:

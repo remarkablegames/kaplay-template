@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" href="favicon.png" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -48,20 +48,5 @@
   <body>
     <noscript>You need to enable JavaScript to play this game.</noscript>
     <script type="module" src="src/main.ts"></script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script>
-      window['ga-disable-%VITE_GOOGLE_ANALYTICS_ID%'] = %DEV%;
-      window.dataLayer = window.dataLayer || [];
-      window.gtag = function () {
-        dataLayer.push(arguments);
-      };
-      gtag('js', new Date());
-      gtag('config', '%VITE_GOOGLE_ANALYTICS_ID%');
-    </script>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=%VITE_GOOGLE_ANALYTICS_ID%"
-    ></script>
   </body>
 </html>

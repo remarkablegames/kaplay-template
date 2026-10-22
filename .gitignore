@@ -7,7 +7,6 @@
 
 # vite
 /dist
-.env.local
 
 # misc
 *.swp
