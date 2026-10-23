@@ -1,3 +1,5 @@
+import 'kaplay/global'
+
 import kaplay from 'kaplay'
 
 kaplay()
