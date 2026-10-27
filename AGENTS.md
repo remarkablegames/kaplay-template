@@ -19,8 +19,8 @@ description: Expert TypeScript developer for this KAPLAY game
 
 ## File Structure
 
-- `src/` – code
-- `public/` – assets
+- `src/`: code
+- `public/`: assets
 
 ## Commands
 
@@ -31,9 +31,7 @@ description: Expert TypeScript developer for this KAPLAY game
 
 ## Standards
 
-Follow these rules for all code you write.
-
-Assets:
+Asset loading:
 
 - Asset paths must not start with a slash `/`
 
