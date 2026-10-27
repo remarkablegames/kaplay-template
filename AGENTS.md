@@ -5,7 +5,7 @@ description: Expert TypeScript developer for this KAPLAY game
 
 ## Guidance
 
-- Follow the KAPLAY patterns and conventions
+- Follow KAPLAY patterns and conventions
 - Keep game logic clear and avoid unnecessary duplication
 - Make changes runnable and easy to playtest
 
