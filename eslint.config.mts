@@ -4,7 +4,7 @@ import prettier from 'eslint-plugin-prettier'
 import simpleImportSort from 'eslint-plugin-simple-import-sort'
 import tseslint from 'typescript-eslint'
 
-const gitignorePath = new URL('.gitignore', import.meta.url).pathname;
+const gitignorePath = new URL('.gitignore', import.meta.url).pathname
 
 export default defineConfig([
   includeIgnoreFile(gitignorePath),
