@@ -1,0 +1,17 @@
+{
+  "name": "Kaplay Template",
+  "short_name": "Kaplay Template",
+  "description": "Kaplay Template",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "landscape",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }
+  ]
+}
